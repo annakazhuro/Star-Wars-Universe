@@ -121,12 +121,12 @@
 		0319E0452292DD960006B9C7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				032B87B322A67EF0003206BD /* people.png */,
-				032B87AD22A67E7E003206BD /* Movie.png */,
 				035594882292EAA500941E08 /* DarthVeider.png */,
 				0319E0422292DD470006B9C7 /* LaunchScreenImage.jpg */,
+				032B87AD22A67E7E003206BD /* Movie.png */,
+				032B87B322A67EF0003206BD /* people.png */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		0385601C2292F2C80074D3AF /* MainControllerScene */ = {
@@ -148,15 +148,15 @@
 		038DF8BA22BE839C00D0F32D /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				03FBB88B22B80F4A0080A33D /* MoviesPage */,
-				03FBB88A22B80EFA0080A33D /* MovieInfoPage */,
-				03FBB88D22B80F780080A33D /* SearchAndCharactersPage */,
 				03FBB88C22B80F690080A33D /* CharacterInfoPage */,
-				03FBB88E22B80F880080A33D /* PlanetInfoPage */,
-				03AC4C2A22A3D93200974319 /* SpeciesInfoScene */,
 				0385601C2292F2C80074D3AF /* MainControllerScene */,
+				03FBB88A22B80EFA0080A33D /* MovieInfoPage */,
+				03FBB88B22B80F4A0080A33D /* MoviesPage */,
+				03FBB88E22B80F880080A33D /* PlanetInfoPage */,
+				03FBB88D22B80F780080A33D /* SearchAndCharactersPage */,
+				03AC4C2A22A3D93200974319 /* SpeciesInfoScene */,
 			);
-			name = Group;
+			path = Group;
 			sourceTree = "<group>";
 		};
 		038DF8BB22BE83E900D0F32D /* Star Wars Universe */ = {
@@ -166,16 +166,16 @@
 				0319E0372292D0BF0006B9C7 /* Assets.xcassets */,
 				0319E0392292D0BF0006B9C7 /* LaunchScreen.storyboard */,
 			);
-			name = "Star Wars Universe";
+			path = "Star Wars Universe";
 			sourceTree = "<group>";
 		};
 		038DF8BC22BE842A00D0F32D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				0319E0452292DD960006B9C7 /* Images */,
 				038DF8BD22BE843000D0F32D /* Enum */,
+				0319E0452292DD960006B9C7 /* Images */,
 			);
-			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		038DF8BD22BE843000D0F32D /* Enum */ = {
@@ -183,7 +183,7 @@
 			children = (
 				038DF8B522BD317C00D0F32D /* StoryboardEnum.swift */,
 			);
-			name = Enum;
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		03AC4C2A22A3D93200974319 /* SpeciesInfoScene */ = {
@@ -192,7 +192,7 @@
 				032B87B722A6B401003206BD /* Species.swift */,
 				03AC4C3722A6564800974319 /* SpeciesManager.swift */,
 			);
-			name = SpeciesInfoScene;
+			path = SpeciesInfoScene;
 			sourceTree = "<group>";
 		};
 		03FBB88A22B80EFA0080A33D /* MovieInfoPage */ = {
@@ -200,20 +200,20 @@
 			children = (
 				03FBB89522B8E4470080A33D /* ViewController */,
 				03FBB8A322B8F0DE0080A33D /* BasicMovieInfoTableViewCell.swift */,
-				03FBB8A522B8F0F10080A33D /* CrawlTableViewCell.swift */,
 				03FBB8A722B8F1110080A33D /* CharactersTableViewCell.swift */,
+				03FBB8A522B8F0F10080A33D /* CrawlTableViewCell.swift */,
 			);
-			name = MovieInfoPage;
+			path = MovieInfoPage;
 			sourceTree = "<group>";
 		};
 		03FBB88B22B80F4A0080A33D /* MoviesPage */ = {
 			isa = PBXGroup;
 			children = (
+				03FBB89222B8E2E40080A33D /* DataSource */,
+				03FBB89322B8E3270080A33D /* Manager */,
+				03FBB89422B8E3650080A33D /* Model */,
 				038DF8B722BD369200D0F32D /* New Group */,
 				03FBB8A922BB70400080A33D /* Protocol */,
-				03FBB89422B8E3650080A33D /* Model */,
-				03FBB89322B8E3270080A33D /* Manager */,
-				03FBB89222B8E2E40080A33D /* DataSource */,
 				03FBB89122B8E2580080A33D /* ViewController */,
 			);
 			path = MoviesPage;
@@ -224,14 +224,14 @@
 			children = (
 				03FBB89922B8E5060080A33D /* ViewController */,
 			);
-			name = CharacterInfoPage;
+			path = CharacterInfoPage;
 			sourceTree = "<group>";
 		};
 		03FBB88D22B80F780080A33D /* SearchAndCharactersPage */ = {
 			isa = PBXGroup;
 			children = (
-				03FBB89722B8E4800080A33D /* Model */,
 				03FBB89622B8E4700080A33D /* Manager */,
+				03FBB89722B8E4800080A33D /* Model */,
 				03FBB89822B8E49D0080A33D /* ViewController */,
 			);
 			path = SearchAndCharactersPage;
@@ -240,11 +240,11 @@
 		03FBB88E22B80F880080A33D /* PlanetInfoPage */ = {
 			isa = PBXGroup;
 			children = (
-				03FBB89C22B8E52C0080A33D /* Model */,
 				03FBB89B22B8E5200080A33D /* Manager */,
+				03FBB89C22B8E52C0080A33D /* Model */,
 				03FBB89A22B8E5130080A33D /* ViewController */,
 			);
-			name = PlanetInfoPage;
+			path = PlanetInfoPage;
 			sourceTree = "<group>";
 		};
 		03FBB89122B8E2580080A33D /* ViewController */ = {
@@ -284,7 +284,7 @@
 			children = (
 				03A7E9F9229339C700E7FDEB /* MovieInfoViewController.swift */,
 			);
-			name = ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		03FBB89622B8E4700080A33D /* Manager */ = {
@@ -316,7 +316,7 @@
 			children = (
 				03AC4C2822A3149B00974319 /* CharacterInfoViewController.swift */,
 			);
-			name = ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		03FBB89A22B8E5130080A33D /* ViewController */ = {
@@ -324,7 +324,7 @@
 			children = (
 				03AC4C3322A436FE00974319 /* PlanetInfoViewController.swift */,
 			);
-			name = ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		03FBB89B22B8E5200080A33D /* Manager */ = {
@@ -332,7 +332,7 @@
 			children = (
 				03AC4C3122A436D900974319 /* PlanetManager.swift */,
 			);
-			name = Manager;
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		03FBB89C22B8E52C0080A33D /* Model */ = {
@@ -340,7 +340,7 @@
 			children = (
 				03AC4C2F22A436B500974319 /* Planet.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		03FBB8A922BB70400080A33D /* Protocol */ = {
@@ -532,6 +532,7 @@
 				0319E03A2292D0BF0006B9C7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
