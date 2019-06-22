@@ -137,12 +137,12 @@
 			path = MainControllerScene;
 			sourceTree = "<group>";
 		};
-		038DF8B722BD369200D0F32D /* New Group */ = {
+		038DF8B722BD369200D0F32D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				038DF8B822BD36BC00D0F32D /* MoviesListCell.swift */,
 			);
-			path = "New Group";
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		038DF8BA22BE839C00D0F32D /* Group */ = {
@@ -212,7 +212,7 @@
 				03FBB89222B8E2E40080A33D /* DataSource */,
 				03FBB89322B8E3270080A33D /* Manager */,
 				03FBB89422B8E3650080A33D /* Model */,
-				038DF8B722BD369200D0F32D /* New Group */,
+				038DF8B722BD369200D0F32D /* Cell */,
 				03FBB8A922BB70400080A33D /* Protocol */,
 				03FBB89122B8E2580080A33D /* ViewController */,
 			);
