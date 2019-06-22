@@ -109,20 +109,11 @@
 		0319E02F2292D0B90006B9C7 /* StarWarsUniverse */ = {
 			isa = PBXGroup;
 			children = (
-				03FBB88B22B80F4A0080A33D /* MoviesPage */,
-				03FBB88A22B80EFA0080A33D /* MovieInfoPage */,
-				03FBB88D22B80F780080A33D /* SearchAndCharactersPage */,
-				03FBB88C22B80F690080A33D /* CharacterInfoPage */,
-				03FBB88E22B80F880080A33D /* PlanetInfoPage */,
-				0385601C2292F2C80074D3AF /* MainControllerScene */,
-				03AC4C2A22A3D93200974319 /* SpeciesInfoScene */,
-				0319E0302292D0B90006B9C7 /* AppDelegate.swift */,
+				038DF8BA22BE839C00D0F32D /* Group */,
 				038560292292FBE50074D3AF /* Main.storyboard */,
-				0319E0372292D0BF0006B9C7 /* Assets.xcassets */,
-				0319E0392292D0BF0006B9C7 /* LaunchScreen.storyboard */,
+				038DF8BC22BE842A00D0F32D /* Core */,
+				038DF8BB22BE83E900D0F32D /* Star Wars Universe */,
 				0319E03C2292D0BF0006B9C7 /* Info.plist */,
-				0319E0452292DD960006B9C7 /* Images */,
-				038DF8B522BD317C00D0F32D /* StoryboardEnum.swift */,
 			);
 			path = StarWarsUniverse;
 			sourceTree = "<group>";
@@ -152,6 +143,47 @@
 				038DF8B822BD36BC00D0F32D /* MoviesListCell.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		038DF8BA22BE839C00D0F32D /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				03FBB88B22B80F4A0080A33D /* MoviesPage */,
+				03FBB88A22B80EFA0080A33D /* MovieInfoPage */,
+				03FBB88D22B80F780080A33D /* SearchAndCharactersPage */,
+				03FBB88C22B80F690080A33D /* CharacterInfoPage */,
+				03FBB88E22B80F880080A33D /* PlanetInfoPage */,
+				03AC4C2A22A3D93200974319 /* SpeciesInfoScene */,
+				0385601C2292F2C80074D3AF /* MainControllerScene */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+		038DF8BB22BE83E900D0F32D /* Star Wars Universe */ = {
+			isa = PBXGroup;
+			children = (
+				0319E0302292D0B90006B9C7 /* AppDelegate.swift */,
+				0319E0372292D0BF0006B9C7 /* Assets.xcassets */,
+				0319E0392292D0BF0006B9C7 /* LaunchScreen.storyboard */,
+			);
+			name = "Star Wars Universe";
+			sourceTree = "<group>";
+		};
+		038DF8BC22BE842A00D0F32D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0319E0452292DD960006B9C7 /* Images */,
+				038DF8BD22BE843000D0F32D /* Enum */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		038DF8BD22BE843000D0F32D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				038DF8B522BD317C00D0F32D /* StoryboardEnum.swift */,
+			);
+			name = Enum;
 			sourceTree = "<group>";
 		};
 		03AC4C2A22A3D93200974319 /* SpeciesInfoScene */ = {
